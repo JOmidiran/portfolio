@@ -10,7 +10,7 @@
   const numPoints = 50;
   const data = [];
   for (let i = 0; i < numPoints; i++) {
-    data.push([Math.random() * xMax + 100, Math.random() * yMax + 100]);
+    data.push([Math.random() * xMax, Math.random() * yMax]);
   }
   
   // Append SVG Object to the Page
@@ -21,8 +21,8 @@
   
   // X Axis
   const x = d3.scaleLinear()
-    .domain([0, 600])
-    .range([0, xMax + 100]);
+    .domain([0, 500])
+    .range([0, xMax]);
   
   svg.append("g")
     .attr("transform", "translate(0," + yMax + ")")
@@ -30,8 +30,8 @@
   
   // Y Axis
   const y = d3.scaleLinear()
-    .domain([0, 600])
-    .range([ yMax + 100, 0]);
+    .domain([0, 500])
+    .range([ yMax, 0]);
   
   svg.append("g")
     .call(d3.axisLeft(y));
