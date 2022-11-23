@@ -30,7 +30,7 @@
   
   // Y Axis
   const y = d3.scaleLinear()
-    .domain([0, 500])
+    .domain([500, 0])
     .range([yMax, 0]);
   
   svg.append("g")
