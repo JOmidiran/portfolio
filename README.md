@@ -1,5 +1,5 @@
 # Jude Omidiran
-*An Aspiring Data Scientist | 2X Kaggle Grandmaster*
+*Data Scientist, Economics MSc*
 
 # Education
 * Masters of Science (Economics), *University of Amsterdam*, 2020-2022
